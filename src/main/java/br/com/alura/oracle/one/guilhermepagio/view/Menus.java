@@ -2,6 +2,8 @@ package br.com.alura.oracle.one.guilhermepagio.view;
 
 import br.com.alura.oracle.one.guilhermepagio.util.input.Teclado;
 
+import java.math.BigDecimal;
+
 public class Menus {
 
     private Menus () {}
@@ -20,8 +22,13 @@ public class Menus {
         System.out.println("10 - Converter Iene Japonês para Real");
         System.out.println("11 - Converter Iene Japonês para Dolar Americano");
         System.out.println("12 - Converter Iene Japonês para Euro");
-        return Teclado.CapturaInteiroDigitado();
+        return Teclado.capturaInteiroDigitado();
 
+    }
+
+    public static BigDecimal obterQuantidadeMoedaBase (){
+        System.out.println("Insira o valor que deseja converter");
+        return Teclado.capturaBigDecimalDigitado();
     }
 
 }
