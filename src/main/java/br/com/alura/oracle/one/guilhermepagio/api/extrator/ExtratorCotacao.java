@@ -26,9 +26,6 @@ public class ExtratorCotacao {
             System.out.println(e.getMessage());
         }
 
-
-
-
         return BigDecimal.valueOf(0);
     }
 
