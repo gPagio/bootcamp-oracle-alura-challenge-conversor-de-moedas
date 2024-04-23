@@ -1,18 +1,18 @@
 package br.com.alura.oracle.one.guilhermepagio.helper;
 
-import java.util.HashMap;
-import java.util.Map;
+import br.com.alura.oracle.one.guilhermepagio.util.input.Teclado;
 
-public class DecodificadorMoeda {
+public class Decodificador {
 
-    private DecodificadorMoeda (){}
+    private Decodificador(){}
 
-    public static String [] decodifica (int opcao){
+    public static String [] decodificaMoedasDasOpcaoesDoMenu(int opcao){
         String [] keyValue = new String[2];
 
         switch (opcao){
             case 0:
                 System.out.println("Obrigado por usar o conversor de moedas!");
+                Teclado.pressioneQualquerTecla();
                 break;
             case 1:
                 keyValue[0] = "BRL";
