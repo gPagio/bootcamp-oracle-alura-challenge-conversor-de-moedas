@@ -8,8 +8,8 @@ public class ConversorMoeda {
 
     private ConversorMoeda () {}
 
-    public static BigDecimal converteMoeda (String moedaBase, int quantiadeMoedaBase, String moedaConvertida) {
-        return ExtratorCotacao.extraiCotacaoMoedaJsonBody(moedaBase, moedaConvertida).multiply(BigDecimal.valueOf(quantiadeMoedaBase));
+    public static BigDecimal converteMoeda (String moedaBase, BigDecimal quantiadeMoedaBase, String moedaConvertida) {
+        return ExtratorCotacao.extraiCotacaoMoedaJsonBody(moedaBase, moedaConvertida).multiply(quantiadeMoedaBase);
     }
 
 }
