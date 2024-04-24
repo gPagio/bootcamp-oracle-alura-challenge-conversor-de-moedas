@@ -5,7 +5,7 @@ import java.text.DecimalFormat;
 
 public class OutputFormater {
 
-    private static DecimalFormat formatoNumeroDuasCasasDecimais = new DecimalFormat("#.##");
+    private static DecimalFormat formatoNumeroDuasCasasDecimais = new DecimalFormat("0.00");
 
     private OutputFormater () {}
 
