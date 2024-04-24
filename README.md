@@ -28,7 +28,7 @@ Confesso que me emocionei um pouco e coloquei 12 opções, sendo elas:
 
 Para executar o projeto, abra o mesmo com a IDE IntelliJ IDEA e execute o método abaixo na classe Main:
 
-```
+``` Java
 public static void main(String[] args)
 ```
 
