@@ -32,7 +32,7 @@ Para executar o projeto, abra o mesmo com a IDE IntelliJ IDEA e execute o métod
 public static void main(String[] args)
 ```
 
-Após a execução do programa, basta escolher dentre as opções de conversão disponíveis e informar o valor a ser convertido que o programa irá exibir a conversão na tela.
+Após a execução do programa, basta escolher dentre as opções de conversão disponíveis e informar o valor a ser convertido que o programa irá exibir a conversão na tela e posteriormente retornar ao menu inicial.
 
 O último passo será executado até que o usuário informe 0 nas opções do menu, a qual compete à opção de sair do programa.
 
