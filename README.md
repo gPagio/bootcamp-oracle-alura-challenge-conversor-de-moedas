@@ -37,4 +37,5 @@ Após a execução do programa, basta escolher dentre as opções de conversão 
 O último passo será executado até que o usuário informe 0 nas opções do menu, a qual compete à opção de sair do programa.
 
 ## ⚠️ Avisos
+1. Este projeto foi construído e testado sobre o JDK 21, dessa forma recomendamos o uso do mesmo durante a execução do mesmo.
 1. Tentei executar o projeto diretamente pelo terminal, mas não obtive sucesso. Desta forma, recomendo executar o projeto internamente na IDE IntelliJ IDEA.
