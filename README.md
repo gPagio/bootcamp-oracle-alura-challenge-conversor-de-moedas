@@ -1,5 +1,5 @@
 # Conversor de Cotação de Moedas em Java - Oracle ONE
-Este é o projeto do challenge proposto na fase final da formação `Java e Orientação a Objetos T6 - ONE`.
+Este é o projeto do challenge proposto na fase final da formação `Java e Orientação a Objetos T6 - ONE`, a qual formação pertenca a grade do programa Oracle ONE.
 
 ## 💡Objetivo
 O objetivo deste desafio foi proporcionar uma experiência real no mundo do desenvolvimento. Durante a criação do mesmo, passei por uma série de situações que me obrigavam a tomar decisões para saber como eu iria continuar a construção do meu conversor de moedas.
